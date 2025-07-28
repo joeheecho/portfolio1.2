@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joe's Design Portfolio</title>
+    <link rel="icon" type="image/png" href="Frame 1321317754.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar sticky-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Frame 1321317754.png"
+            width="32"
+            height="32"
+            class="d-inline-block align-top ms-3 me-2"
+            alt=""
+          />
+          Joe's Design Portfolio
+          <span class="badge text-bg-primary ms-2"> V1.2</span>
+          <span class="badge badge-custom-purple ms-2">bootstrap-v5.3.7</span>
+        </a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!--navTabsStart-->
+    <nav class="my-4 mx-3">
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button
+          class="nav-link active"
+          id="nav-home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-home"
+          type="button"
+          role="tab"
+          aria-controls="nav-home"
+          aria-selected="true"
+        >
+          Home
+        </button>
+        <button
+          class="nav-link"
+          id="nav-profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-profile"
+          type="button"
+          role="tab"
+          aria-controls="nav-profile"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+        <button
+          class="nav-link"
+          id="nav-contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-contact"
+          type="button"
+          role="tab"
+          aria-controls="nav-contact"
+          aria-selected="false"
+        >
+          Contact
+        </button>
+        <button
+          class="nav-link"
+          id="nav-disabled-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-disabled"
+          type="button"
+          role="tab"
+          aria-controls="nav-disabled"
+          aria-selected="false"
+          disabled
+        >
+          Disabled
+        </button>
+      </div>
+    </nav>
+
+    <!--tabContentStart-->
+    <div class="tab-content" id="nav-tabContent">
+      <!--portfolioTabStart-->
+      <div
+        class="tab-pane fade show active mx-3"
+        id="nav-home"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+        tabindex="0"
+      >
+        <div class="my-5">
+          <img src="federatedLearning.png" class="" height="32px" alt="" />
+          <h5>Industry: Healthcare</h5>
+          <h6>Project Type: Minimum Viable Product (MVP)</h6>
+          <p>Impact: Increased Project Runway by 6 months</p>
+        </div>
+        <div class="my-5">
+          <img src="federatedLearning.png" class="" height="32px" alt="" />
+          <h5>Industry: Healthcare</h5>
+          <h6>Project Type: Minimum Viable Product (MVP)</h6>
+          <p>Impact: Increased Project Runway by 6 months</p>
+        </div>
+      </div>
+      <!--portfolioTabEnd-->
+
+      <div
+        class="tab-pane fade"
+        id="nav-profile"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+        tabindex="0"
+      >
+        PROFILE
+      </div>
+      <div
+        class="tab-pane fade"
+        id="nav-contact"
+        role="tabpanel"
+        aria-labelledby="nav-contact-tab"
+        tabindex="0"
+      >
+        CONTACT
+      </div>
+      <div
+        class="tab-pane fade"
+        id="nav-disabled"
+        role="tabpanel"
+        aria-labelledby="nav-disabled-tab"
+        tabindex="0"
+      >
+        DISABLED
+      </div>
+    </div>
+
+    <!-- navTabsEnd-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
