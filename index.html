@@ -61,6 +61,7 @@
         >
           Profile
         </button>
+
         <button
           class="nav-link"
           id="nav-contact-tab"
@@ -91,10 +92,8 @@
 
     <!--tabContentStart-->
     <div class="tab-content" id="nav-tabContent">
-      <!--portfolioTabStart-->
 
-      <p>git test 1-633pm-7/28/2025</p>
-      <p>git test 2-633pm-7/28/2025</p>
+      <!--portfolioTabStart-->
       <div
         class="tab-pane fade show active mx-3"
         id="nav-home"
@@ -103,20 +102,93 @@
         tabindex="0"
       >
         <div class="my-5">
-          <img src="federatedLearning.png" class="" height="32px" alt="" />
-          <h5>Industry: Healthcare</h5>
-          <h6>Project Type: Minimum Viable Product (MVP)</h6>
-          <p>Impact: Increased Project Runway by 6 months</p>
-        </div>
+          <img src="federatedLearning.png" class="mb-3" height="32px" alt="" />
+          
+
+          <br>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/UtKtgS3NWeNs8hhzap6whr/Joe-Cho-Design-Portfolio-1?page-id=156%3A73827&node-id=156-91121&viewport=346%2C244%2C0.28&scaling=scale-down&content-scaling=fixed&embed-host=share" allowfullscreen></iframe>
+          <br>
+          
+          <div class="my-3">
+            <h5>Industry: Healthcare</h5>
+            <h6>Project Type: Minimum Viable Product (MVP)</h6>
+            <p>Impact: Increased Project Runway by 6 months</p>
+          </div>
+
+          <!-- federated Learning Accordion Start-->
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Project Description
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The FederatedLearning MVP was created to demonstrate the functionalities of a Federated Learning Module that facilitates federated training/analytics jobs using NVIDIA Flare while also addressing and mitigating the related security vulnerabilities. <strong>The MVP prioritized designing and building user-centric interfaces for advanced AI-driven cancer research solutions in collaboration with top industry and academic partners.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Roles and Responsibilities
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Collaborate with cross-functional teams to design and implement intuitive user interfaces for the MVP.</li>
+                    <li class="list-group-item">Apply UI/UX best practices to optimize user experience for researchers and clinicians.</li>
+                    <li class="list-group-item">Participate in agile development processes, including sprint planning and user feedback sessions.</li>
+                    <li class="list-group-item">Ensure compliance with security and privacy standards relevant to healthcare and research data.</li>
+                    <li class="list-group-item">Crafted Site Architecture with Low fidelity designs that inform high fidelity clickable prototype that won more runway for the project to continue for an additional 3 months.</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Technology & Skills
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="accordion-body">
+        
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Figma</li>
+                    <li class="list-group-item">Material UI</li>
+                    <li class="list-group-item">Mural</li>
+                    <li class="list-group-item">Design Systems</li>
+                  </ul>
+
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Commenting out the second portfolio item for now
         <div class="my-5">
           <img src="federatedLearning.png" class="" height="32px" alt="" />
           <h5>Industry: Healthcare</h5>
           <h6>Project Type: Minimum Viable Product (MVP)</h6>
           <p>Impact: Increased Project Runway by 6 months</p>
-        </div>
+        </div>-->
       </div>
+      
+
       <!--portfolioTabEnd-->
 
+
+      <!--resumeTabStart-->
       <div
         class="tab-pane fade"
         id="nav-profile"
@@ -126,6 +198,12 @@
       >
         PROFILE
       </div>
+
+      <!--resumeTabEnd-->
+
+
+
+      <!--remainingTabs-->
       <div
         class="tab-pane fade"
         id="nav-contact"
